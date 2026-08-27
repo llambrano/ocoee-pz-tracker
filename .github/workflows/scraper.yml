@@ -1,24 +1,17 @@
-# .github/workflows/scraper.yml
-#
-# Runs the Ocoee P&Z scraper every Tuesday at 08:00 UTC (4 AM ET)
-# — right after the second Tuesday of the month when meetings occur.
-# Commits updated data/meetings.json back to the repo.
-# The React app reads this file from GitHub's raw CDN.
-
 name: Scrape Ocoee P&Z Meetings
 
 on:
   schedule:
-    - cron: "0 8 * * 2"   # every Tuesday 08:00 UTC
-  workflow_dispatch:        # allow manual trigger from GitHub UI
+    - cron: "0 8 * * 2"   # every Tuesday 08:00 UTC (4 AM ET)
+  workflow_dispatch:        # manual trigger from GitHub UI
 
 permissions:
-  contents: write           # needed to commit the output file
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5      # was 15 — much faster now, no browser
 
     steps:
       - name: Checkout repo
@@ -29,38 +22,29 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Cache pip packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-playwright-bs4
-          restore-keys: ${{ runner.os }}-pip-
-
       - name: Install dependencies
-        run: |
-          pip install playwright beautifulsoup4
-          playwright install chromium --with-deps
+        run: pip install requests   # that's all we need now
 
       - name: Run scraper
         run: python scraper.py
 
       - name: Show results summary
         run: |
-          echo "=== meetings.json preview ==="
-          cat data/meetings.json | python -c "
-          import sys, json
-          d = json.load(sys.stdin)
-          print(f'Scraped at: {d[\"scrapedAt\"]}')
-          print(f'Meetings found: {d[\"count\"]}')
+          python - <<'EOF'
+          import json
+          d = json.load(open("data/meetings.json"))
+          print(f"Scraped at : {d['scrapedAt']}")
+          print(f"Meetings   : {d['count']}")
           for m in d['meetings']:
-              print(f'  - [{m[\"eventId\"]}] {m[\"title\"]} ({m[\"date\"]})')
-          "
+              tag = "[CANCELED]" if m['canceled'] else ""
+              docs = len(m['documents'])
+              print(f"  {m['eventId']} | {m['date'][:10]} | {m['title']} {tag} | {docs} docs")
+          EOF
 
       - name: Commit & push updated data
         run: |
           git config user.name  "ocoee-pz-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/meetings.json data/raw_api_calls.json
-          # Only commit if something changed
-          git diff --staged --quiet || git commit -m "chore: scrape meetings $(date -u +%Y-%m-%d)"
+          git add data/meetings.json
+          git diff --staged --quiet || git commit -m "chore: scrape P&Z meetings $(date -u +%Y-%m-%d)"
           git push
