@@ -1,0 +1,88 @@
+{
+  "scrapedAt": "2026-08-27T23:44:14.717786+00:00",
+  "source": "https://ocoeefl.portal.civicclerk.com",
+  "count": 3,
+  "meetings": [
+    {
+      "eventId": 602,
+      "title": "",
+      "date": "2026-08-11T18:15:00Z",
+      "status": "unknown",
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/602/files",
+      "agendaUrl": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a29abdff-2ba0-4a7f-9cd0-3a5881db349f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=U1k5goK6Aq6WMKJhWuPRlcaBBaZPyd9sM9YNGlxI13M%3D",
+      "minutesUrl": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/f0c77eba33044b7888366326a118c73f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=LxQt7xRc92aEiDb%2FpjKuEtyd7UUTlJ5BLZDZ5MqLiS8%3D",
+      "documents": [
+        {
+          "label": "07-14-2026 Draft Minutes (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/f0c77eba33044b7888366326a118c73f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=LxQt7xRc92aEiDb%2FpjKuEtyd7UUTlJ5BLZDZ5MqLiS8%3D",
+          "type": "minutes"
+        },
+        {
+          "label": "P & Z Agenda Item Staff Report (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a29abdff-2ba0-4a7f-9cd0-3a5881db349f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=U1k5goK6Aq6WMKJhWuPRlcaBBaZPyd9sM9YNGlxI13M%3D",
+          "type": "agenda"
+        },
+        {
+          "label": "Aerial Map (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/451229bd18af4204adf63d3208d29e6b.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=HDnPHNUZs1%2FC7Me2FJ7j5yTs7DwVGWM473hSRd%2Fgw0Y%3D",
+          "type": "other"
+        },
+        {
+          "label": "Location Map (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a7be1858c72f4986b9525f14cad8d46a.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=ao0Wu0xmQf9ufKJsy6QnNcmPRV%2B4s5OE1zAiUiNSIuU%3D",
+          "type": "other"
+        },
+        {
+          "label": "2026-07-01 Preserve at Crown Point Street Tree Removal Site Plan Application and Site Plan (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/37ef77368dbf4adfa50bcf911b99da7d.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=xtvcoMbAfSj0s7UCJ%2F7N%2BH26FuNTAaGmowUUlOIrY7I%3D",
+          "type": "other"
+        },
+        {
+          "label": "Trail Map (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/0aa1601005664c2c8a5801ea3580a7d0.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=Ql9Adyy4t0SBVct0NkSB0VB7iJpAx9%2FlA%2FUCR9yBsdM%3D",
+          "type": "other"
+        },
+        {
+          "label": "2025-05-25 Preserve at Crown Point Street Tree Evaluation (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/85ce54ac4cf04019b3876fe0ed5c00bd.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=%2Fkjj1yqqyxWSZG3yccRtG1l6Sti%2F659uaJKhsEMAU1I%3D",
+          "type": "other"
+        },
+        {
+          "label": "2025-01-30 Preserve at Ocoee HOA Certified NOV (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a82cd7cbc9d841398b87c77ea54a888c.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=Zx8bTdQ7xzd0X%2FNzcaipMwALHBmcZWXxYPzGX9xJNT8%3D",
+          "type": "other"
+        },
+        {
+          "label": "2026-01-28 Third Amendment to Community Declaration for Preserve at Crown Point (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/c34e9c94107b4e1c8f1d9958eb3f5129.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=GDHh0394GAiAztp6aRTO4AdNfJ7uW4neMl9CyVYtgjs%3D",
+          "type": "other"
+        },
+        {
+          "label": "08062026 Development Status (PDF)",
+          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/fb0f7852518a40cf8d6894ad9a7ef2f9.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=wgThTuY3KOu426sgbGltgN6VIyS2nzOL%2Bp2LesVb8qU%3D",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "eventId": 669,
+      "title": "",
+      "date": "2026-09-08T18:15:00Z",
+      "status": "unknown",
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/669/files",
+      "agendaUrl": null,
+      "minutesUrl": null,
+      "documents": []
+    },
+    {
+      "eventId": 670,
+      "title": "",
+      "date": "2026-10-13T18:15:00Z",
+      "status": "unknown",
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/670/files",
+      "agendaUrl": null,
+      "minutesUrl": null,
+      "documents": []
+    }
+  ]
+}
