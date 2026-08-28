@@ -17,12 +17,11 @@
     const { useState, useEffect } = React;
 
     const API    = "https://ocoeefl.api.civicclerk.com/v1";
-    const CDN    = `${API}/stream/OCOEEFL`;
     const PORTAL = "https://ocoeefl.portal.civicclerk.com";
     const PZ_CAT = 27;
 
     const fileUrl = (raw = "") =>
-      raw.startsWith("http") ? raw : `${CDN}/${raw.replace("stream/OCOEEFL/", "")}`;
+      raw.startsWith("http") ? raw : `${PORTAL}/${raw}`;
 
     async function fetchAllPZEvents() {
       const all = [];
