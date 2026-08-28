@@ -36,12 +36,20 @@
       return all;
     }
 
+    const fileTypeSlug = t => ({
+      "Agenda": "agenda",
+      "Agenda Packet": "agenda",
+      "Minutes": "minutes",
+    }[t] || "attachment");
+
     function shapeMeeting(e) {
       const portalUrl = `${PORTAL}/event/${e.id}/files`;
       const docs = (e.publishedFiles || []).map(f => ({
-        label: f.name || f.type, type: f.type,
-        url: portalUrl,   // always link to the portal files page
+        label: f.name || f.type,
+        type: f.type,
+        url: `${PORTAL}/event/${e.id}/files/${fileTypeSlug(f.type)}/${f.fileId}`,
       }));
+      const byType = t => docs.find(d => d.type === t)?.url || null;
       return {
         eventId: e.id,
         title: e.eventName,
@@ -50,10 +58,10 @@
         agendaPosted: e.publishedAgendaTimeStamp || "",
         location: (e.eventLocation?.address1 || "1 N Bluford Ave"),
         hasAgenda: e.hasAgenda,
-        agendaUrl:  e.hasAgenda ? portalUrl : null,
-        minutesUrl: (e.publishedFiles||[]).some(f => f.type === "Minutes") ? portalUrl : null,
-        packetUrl:  (e.publishedFiles||[]).some(f => f.type === "Agenda Packet") ? portalUrl : null,
-        documents: docs,
+        agendaUrl:  byType("Agenda"),
+        minutesUrl: byType("Minutes"),
+        packetUrl:  byType("Agenda Packet"),
+        documents:  docs,
         portalUrl,
       };
     }
