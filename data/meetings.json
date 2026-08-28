@@ -1,88 +1,1581 @@
 {
-  "scrapedAt": "2026-08-27T23:44:14.717786+00:00",
-  "source": "https://ocoeefl.portal.civicclerk.com",
-  "count": 3,
+  "scrapedAt": "2026-08-28T00:10:30.366820+00:00",
+  "source": "https://ocoeefl.api.civicclerk.com/v1/Events?$filter=eventCategoryId eq 27",
+  "count": 49,
   "meetings": [
     {
-      "eventId": 602,
-      "title": "",
-      "date": "2026-08-11T18:15:00Z",
-      "status": "unknown",
-      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/602/files",
-      "agendaUrl": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a29abdff-2ba0-4a7f-9cd0-3a5881db349f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=U1k5goK6Aq6WMKJhWuPRlcaBBaZPyd9sM9YNGlxI13M%3D",
-      "minutesUrl": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/f0c77eba33044b7888366326a118c73f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=LxQt7xRc92aEiDb%2FpjKuEtyd7UUTlJ5BLZDZ5MqLiS8%3D",
-      "documents": [
-        {
-          "label": "07-14-2026 Draft Minutes (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/f0c77eba33044b7888366326a118c73f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=LxQt7xRc92aEiDb%2FpjKuEtyd7UUTlJ5BLZDZ5MqLiS8%3D",
-          "type": "minutes"
-        },
-        {
-          "label": "P & Z Agenda Item Staff Report (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a29abdff-2ba0-4a7f-9cd0-3a5881db349f.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=U1k5goK6Aq6WMKJhWuPRlcaBBaZPyd9sM9YNGlxI13M%3D",
-          "type": "agenda"
-        },
-        {
-          "label": "Aerial Map (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/451229bd18af4204adf63d3208d29e6b.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=HDnPHNUZs1%2FC7Me2FJ7j5yTs7DwVGWM473hSRd%2Fgw0Y%3D",
-          "type": "other"
-        },
-        {
-          "label": "Location Map (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a7be1858c72f4986b9525f14cad8d46a.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=ao0Wu0xmQf9ufKJsy6QnNcmPRV%2B4s5OE1zAiUiNSIuU%3D",
-          "type": "other"
-        },
-        {
-          "label": "2026-07-01 Preserve at Crown Point Street Tree Removal Site Plan Application and Site Plan (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/37ef77368dbf4adfa50bcf911b99da7d.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=xtvcoMbAfSj0s7UCJ%2F7N%2BH26FuNTAaGmowUUlOIrY7I%3D",
-          "type": "other"
-        },
-        {
-          "label": "Trail Map (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/0aa1601005664c2c8a5801ea3580a7d0.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=Ql9Adyy4t0SBVct0NkSB0VB7iJpAx9%2FlA%2FUCR9yBsdM%3D",
-          "type": "other"
-        },
-        {
-          "label": "2025-05-25 Preserve at Crown Point Street Tree Evaluation (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/85ce54ac4cf04019b3876fe0ed5c00bd.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=%2Fkjj1yqqyxWSZG3yccRtG1l6Sti%2F659uaJKhsEMAU1I%3D",
-          "type": "other"
-        },
-        {
-          "label": "2025-01-30 Preserve at Ocoee HOA Certified NOV (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/a82cd7cbc9d841398b87c77ea54a888c.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=Zx8bTdQ7xzd0X%2FNzcaipMwALHBmcZWXxYPzGX9xJNT8%3D",
-          "type": "other"
-        },
-        {
-          "label": "2026-01-28 Third Amendment to Community Declaration for Preserve at Crown Point (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/c34e9c94107b4e1c8f1d9958eb3f5129.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=GDHh0394GAiAztp6aRTO4AdNfJ7uW4neMl9CyVYtgjs%3D",
-          "type": "other"
-        },
-        {
-          "label": "08062026 Development Status (PDF)",
-          "url": "https://civicclerk.blob.core.windows.net/stream/OCOEEFL/fb0f7852518a40cf8d6894ad9a7ef2f9.pdf?skoid=4bbe46ab-1a20-44be-a870-cd3e30527573&sktid=c26badce-f52a-4b54-be8d-3d9cd095d0e4&skt=2026-08-27T21%3A53%3A20Z&ske=2026-08-28T21%3A53%3A20Z&sks=b&skv=2026-06-06&sv=2026-06-06&st=2026-08-27T23%3A44%3A04Z&se=2026-09-03T23%3A44%3A04Z&sr=b&sp=rw&sig=wgThTuY3KOu426sgbGltgN6VIyS2nzOL%2Bp2LesVb8qU%3D",
-          "type": "other"
-        }
-      ]
-    },
-    {
       "eventId": 669,
-      "title": "",
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
       "date": "2026-09-08T18:15:00Z",
-      "status": "unknown",
-      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/669/files",
+      "status": "Published",
+      "agendaPosted": "",
+      "location": {
+        "address": "1 N Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
       "agendaUrl": null,
       "minutesUrl": null,
-      "documents": []
+      "packetUrl": null,
+      "documents": [],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/669/files"
     },
     {
       "eventId": 670,
-      "title": "",
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
       "date": "2026-10-13T18:15:00Z",
-      "status": "unknown",
-      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/670/files",
+      "status": "Published",
+      "agendaPosted": "",
+      "location": {
+        "address": "1 N Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
       "agendaUrl": null,
       "minutesUrl": null,
-      "documents": []
+      "packetUrl": null,
+      "documents": [],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/670/files"
+    },
+    {
+      "eventId": 671,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-11-10T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "",
+      "location": {
+        "address": "1 N Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": null,
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/671/files"
+    },
+    {
+      "eventId": 672,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-12-08T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "",
+      "location": {
+        "address": "1 N Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": null,
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/672/files"
+    },
+    {
+      "eventId": 602,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-08-11T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on August 7, 2026 4:16 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/25dcae1b-ea61-49b4-a175-6c122da8ed1a.pdf",
+      "minutesUrl": null,
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/6e87d340-3b3b-409b-ad39-2daf885ab40a.pdf",
+      "documents": [
+        {
+          "label": "08-11-2026 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/25dcae1b-ea61-49b4-a175-6c122da8ed1a.pdf"
+        },
+        {
+          "label": "08-11-2026 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/6e87d340-3b3b-409b-ad39-2daf885ab40a.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/602/files"
+    },
+    {
+      "eventId": 667,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-07-14T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on July 10, 2026 12:01 PM",
+      "location": {
+        "address": "1 N Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/6896e673-3908-4e98-8c32-8b1c54235f2e.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5a8152c3-120f-4598-bff7-7f0300bed28d.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9f62d9cd-b0ee-4a1d-a080-a63850f25358.pdf",
+      "documents": [
+        {
+          "label": "07-14-2026 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/6896e673-3908-4e98-8c32-8b1c54235f2e.pdf"
+        },
+        {
+          "label": "07-14-2026 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9f62d9cd-b0ee-4a1d-a080-a63850f25358.pdf"
+        },
+        {
+          "label": "07-14-2026 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5a8152c3-120f-4598-bff7-7f0300bed28d.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/667/files"
+    },
+    {
+      "eventId": 600,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-06-09T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on June 5, 2026 10:57 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/ba63df4e-f72d-4781-9eb3-3be4bc8f1f4e.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/af665d12-2479-4b97-852a-bae7b43615a8.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f910dc1f-ab0b-4d15-854d-433a57b54b02.pdf",
+      "documents": [
+        {
+          "label": "06-09-2026 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/ba63df4e-f72d-4781-9eb3-3be4bc8f1f4e.pdf"
+        },
+        {
+          "label": "06-09-2026 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f910dc1f-ab0b-4d15-854d-433a57b54b02.pdf"
+        },
+        {
+          "label": "06-09-2026 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/af665d12-2479-4b97-852a-bae7b43615a8.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/600/files"
+    },
+    {
+      "eventId": 599,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2026-05-12T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on April 28, 2026 12:46 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e9f17114-f2ba-4d46-a53e-19988a3ec4f4.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "05-12-2026 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e9f17114-f2ba-4d46-a53e-19988a3ec4f4.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/599/files"
+    },
+    {
+      "eventId": 598,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-04-14T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on April 9, 2026 2:13 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/76f69711-ede1-4c64-b2b6-0bf3a1011ca2.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d2a8f3e7-94b1-42cb-abd3-4d88a120faf1.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/2a12a768-2e5c-427f-a62d-cf89aace01e3.pdf",
+      "documents": [
+        {
+          "label": "04-14-2026 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/76f69711-ede1-4c64-b2b6-0bf3a1011ca2.pdf"
+        },
+        {
+          "label": "04-14-2026 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/2a12a768-2e5c-427f-a62d-cf89aace01e3.pdf"
+        },
+        {
+          "label": "04-14-2026 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d2a8f3e7-94b1-42cb-abd3-4d88a120faf1.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/598/files"
+    },
+    {
+      "eventId": 662,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-03-10T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on March 9, 2026 3:59 PM",
+      "location": {
+        "address": "1 N Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/aef91fbd-9b71-4b32-ab40-dcb014a4ff80.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/396ef183-88e1-4f42-8ffb-33fdd6846436.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/b371d1ef-1621-4edb-a558-a61161de986a.pdf",
+      "documents": [
+        {
+          "label": "03-10-2026 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/aef91fbd-9b71-4b32-ab40-dcb014a4ff80.pdf"
+        },
+        {
+          "label": "03-10-2026 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/b371d1ef-1621-4edb-a558-a61161de986a.pdf"
+        },
+        {
+          "label": "03-10-2026 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/396ef183-88e1-4f42-8ffb-33fdd6846436.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/662/files"
+    },
+    {
+      "eventId": 596,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2026-02-10T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on January 28, 2026 10:54 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/0e98ab53-c7f6-42c8-a828-92ed37644f9f.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "02-10-2026 Canceled Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/0e98ab53-c7f6-42c8-a828-92ed37644f9f.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/596/files"
+    },
+    {
+      "eventId": 595,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2026-01-13T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on January 8, 2026 2:27 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bf55a909-b30e-48fd-a045-97659e2a46ea.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/658acf8b-937d-4860-b86c-ce934c2595e6.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bd78a9c1-af18-40bb-8dd8-1b7d826431f6.pdf",
+      "documents": [
+        {
+          "label": "January 13, 2026, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bf55a909-b30e-48fd-a045-97659e2a46ea.pdf"
+        },
+        {
+          "label": "January 13, 2026, Planning & Zoning Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bd78a9c1-af18-40bb-8dd8-1b7d826431f6.pdf"
+        },
+        {
+          "label": "01-13-2026 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/658acf8b-937d-4860-b86c-ce934c2595e6.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/595/files"
+    },
+    {
+      "eventId": 594,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-12-09T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on December 5, 2025 8:32 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/216fbdf0-610a-4f17-9cf1-db495b26e0d9.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bf56b215-785f-4226-b80c-def3a441c47d.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/688ab4db-660a-4cef-9bc0-9d8768f8ebf3.pdf",
+      "documents": [
+        {
+          "label": "December 9, 2025, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/216fbdf0-610a-4f17-9cf1-db495b26e0d9.pdf"
+        },
+        {
+          "label": "December 9, 2025, Planning & Zoning Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/688ab4db-660a-4cef-9bc0-9d8768f8ebf3.pdf"
+        },
+        {
+          "label": "12-09-2025 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bf56b215-785f-4226-b80c-def3a441c47d.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/594/files"
+    },
+    {
+      "eventId": 593,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2025-11-11T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": null,
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/593/files"
+    },
+    {
+      "eventId": 592,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-10-14T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on October 9, 2025 3:36 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/0434603f-e636-4441-a733-889930a7b310.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/fef22c7c-825f-4da8-80c0-ddfd1e66ce12.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/89cc6ede-5afd-4e99-8357-6ecdb8da1c43.pdf",
+      "documents": [
+        {
+          "label": "October 14, 2025, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/0434603f-e636-4441-a733-889930a7b310.pdf"
+        },
+        {
+          "label": "October 14, 2025, Planning & Zoning Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/89cc6ede-5afd-4e99-8357-6ecdb8da1c43.pdf"
+        },
+        {
+          "label": "10-14-2025 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/fef22c7c-825f-4da8-80c0-ddfd1e66ce12.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/592/files"
+    },
+    {
+      "eventId": 591,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-09-09T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on September 5, 2025 1:40 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/67dcb981-539d-4a02-9f6c-63b721ffa83b.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9ac2a01a-cbef-4597-94f8-9af0a9c1ada8.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4e0124ed-4d22-4c50-8c48-64d00e6eab61.pdf",
+      "documents": [
+        {
+          "label": "September 9, 2025, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/67dcb981-539d-4a02-9f6c-63b721ffa83b.pdf"
+        },
+        {
+          "label": "September 9, 2025, Planning & Zoning Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4e0124ed-4d22-4c50-8c48-64d00e6eab61.pdf"
+        },
+        {
+          "label": "09-09-25 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9ac2a01a-cbef-4597-94f8-9af0a9c1ada8.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/591/files"
+    },
+    {
+      "eventId": 364,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-08-12T18:15:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on August 11, 2025 3:26 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9a35d7d6-bdd7-4d88-a176-90f828dd3473.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/70eca24e-2014-42d1-829e-9de2aa58d0b0.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f43f926a-d332-4d5e-9311-3a1f1e59fff0.pdf",
+      "documents": [
+        {
+          "label": "08-12-25 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9a35d7d6-bdd7-4d88-a176-90f828dd3473.pdf"
+        },
+        {
+          "label": "08-12-25 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f43f926a-d332-4d5e-9311-3a1f1e59fff0.pdf"
+        },
+        {
+          "label": "08-12-25 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/70eca24e-2014-42d1-829e-9de2aa58d0b0.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/364/files"
+    },
+    {
+      "eventId": 363,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-07-08T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on July 7, 2025 4:25 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/ea620e5e-7320-4a50-ac8a-9fd1c9da2318.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a80c60a5-b1d9-4527-9113-107e057622e1.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9ae3e75b-6cbf-4644-8fad-622699aeb752.pdf",
+      "documents": [
+        {
+          "label": "July 8, 2025, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/ea620e5e-7320-4a50-ac8a-9fd1c9da2318.pdf"
+        },
+        {
+          "label": "July 8, 2025, Planning & Zoning Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9ae3e75b-6cbf-4644-8fad-622699aeb752.pdf"
+        },
+        {
+          "label": "07-08-2025 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a80c60a5-b1d9-4527-9113-107e057622e1.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/363/files"
+    },
+    {
+      "eventId": 362,
+      "title": "Planning & Zoning Commission Meeting Rescheduled to June 18, 2025",
+      "canceled": false,
+      "date": "2025-06-10T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on June 2, 2025 8:51 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/abc60b42-a854-42ee-89ac-aaf76382a759.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "Rescheduled - June 10, 2025, P&Z Commission Meeting Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/abc60b42-a854-42ee-89ac-aaf76382a759.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/362/files"
+    },
+    {
+      "eventId": 361,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-05-13T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on May 8, 2025 5:23 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a6de1467-2691-424d-8641-fc70b8f68030.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/0ef80a61-3187-42a6-8c2a-c74219b28f35.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/31d7c2c8-4b14-489a-b19c-dbcc2b773897.pdf",
+      "documents": [
+        {
+          "label": "May 13, 2025, Planning & Zoning Commission Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a6de1467-2691-424d-8641-fc70b8f68030.pdf"
+        },
+        {
+          "label": "May 13, 2025, Planning & Zoning Commission Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/31d7c2c8-4b14-489a-b19c-dbcc2b773897.pdf"
+        },
+        {
+          "label": "05-13-2025 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/0ef80a61-3187-42a6-8c2a-c74219b28f35.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/361/files"
+    },
+    {
+      "eventId": 360,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-04-08T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on April 2, 2025 8:03 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/df366a2c-f4ee-4b23-90f5-ff74c41a700d.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/8572d650-b751-4649-b029-e62cc291e54f.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f313c8ab-1cf8-4a9d-811f-11b357c44def.pdf",
+      "documents": [
+        {
+          "label": "04-08-2025 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/df366a2c-f4ee-4b23-90f5-ff74c41a700d.pdf"
+        },
+        {
+          "label": "04-08-2025 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f313c8ab-1cf8-4a9d-811f-11b357c44def.pdf"
+        },
+        {
+          "label": "04-08-2025 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/8572d650-b751-4649-b029-e62cc291e54f.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/360/files"
+    },
+    {
+      "eventId": 536,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-03-20T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on March 12, 2025 4:27 PM",
+      "location": {
+        "address": "1 N Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/11edaf43-bf11-41cb-be2e-7c9d0f6ff065.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/be41ca38-52f7-4c46-9c71-b1bffaea334d.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/82ca3940-0ece-40aa-967d-0536d292b770.pdf",
+      "documents": [
+        {
+          "label": "Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/11edaf43-bf11-41cb-be2e-7c9d0f6ff065.pdf"
+        },
+        {
+          "label": "March 20, 2025, Planning & Zoning Commission Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/82ca3940-0ece-40aa-967d-0536d292b770.pdf"
+        },
+        {
+          "label": "03-20-25 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/be41ca38-52f7-4c46-9c71-b1bffaea334d.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/536/files"
+    },
+    {
+      "eventId": 359,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2025-03-11T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on March 10, 2025 10:15 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/c7adda8f-b80f-46e6-a175-e9e86181c99a.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/c7adda8f-b80f-46e6-a175-e9e86181c99a.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/359/files"
+    },
+    {
+      "eventId": 358,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2025-02-11T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on February 6, 2025 8:54 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4e274212-fd86-4d0e-b3e3-3ba9c3850880.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4e274212-fd86-4d0e-b3e3-3ba9c3850880.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/358/files"
+    },
+    {
+      "eventId": 357,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2025-01-14T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on January 9, 2025 2:40 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/3acc0999-8557-460a-b043-07c43ff9978a.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/98d21f2e-49d3-4782-8527-9e84209000a9.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5ed6182d-4074-4105-b06d-88c8386a4339.pdf",
+      "documents": [
+        {
+          "label": "January 14, 2025, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/3acc0999-8557-460a-b043-07c43ff9978a.pdf"
+        },
+        {
+          "label": "January 14, 2025, Planning & Zoning Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5ed6182d-4074-4105-b06d-88c8386a4339.pdf"
+        },
+        {
+          "label": "01-14-25 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/98d21f2e-49d3-4782-8527-9e84209000a9.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/357/files"
+    },
+    {
+      "eventId": 356,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2024-12-10T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on November 19, 2024 2:36 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/2b6c571b-3639-4d75-b7f9-bdbf3a6d7044.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "Canceled - December 10, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/2b6c571b-3639-4d75-b7f9-bdbf3a6d7044.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/356/files"
+    },
+    {
+      "eventId": 355,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-11-12T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on November 7, 2024 2:24 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f3d20696-cab1-458a-bfd6-f89fab582d97.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/76a4b999-b59c-4ebb-abbb-338033d77646.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/86826ad9-09a7-42eb-a358-3199484b5578.pdf",
+      "documents": [
+        {
+          "label": "November 12, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f3d20696-cab1-458a-bfd6-f89fab582d97.pdf"
+        },
+        {
+          "label": "November 12, 2024, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/86826ad9-09a7-42eb-a358-3199484b5578.pdf"
+        },
+        {
+          "label": "11-12-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/76a4b999-b59c-4ebb-abbb-338033d77646.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/355/files"
+    },
+    {
+      "eventId": 354,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-10-08T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/b81433bf-759b-47bf-b9d1-c4c9a53b34ea.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e91ecacd-9586-4bd2-8d68-40eff1ed9ff4.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/656751a8-33e7-4dd3-82cf-6549adc95240.pdf",
+      "documents": [
+        {
+          "label": "October 8, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/b81433bf-759b-47bf-b9d1-c4c9a53b34ea.pdf"
+        },
+        {
+          "label": "October 8, 2024, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/656751a8-33e7-4dd3-82cf-6549adc95240.pdf"
+        },
+        {
+          "label": "10-08-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e91ecacd-9586-4bd2-8d68-40eff1ed9ff4.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/354/files"
+    },
+    {
+      "eventId": 353,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-09-10T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bc11f8fa-a0da-44da-a772-fcd798679d45.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a8d6ba27-8656-4ddf-82ad-29e3ce94506a.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/c4227459-5275-4d14-9a9e-6b17bba0b98c.pdf",
+      "documents": [
+        {
+          "label": "September 10, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bc11f8fa-a0da-44da-a772-fcd798679d45.pdf"
+        },
+        {
+          "label": "September 10, 2024, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/c4227459-5275-4d14-9a9e-6b17bba0b98c.pdf"
+        },
+        {
+          "label": "09-10-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a8d6ba27-8656-4ddf-82ad-29e3ce94506a.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/353/files"
+    },
+    {
+      "eventId": 352,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-08-13T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on August 13, 2024 8:56 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9654e9ff-5605-44e3-b15f-de1acd65d178.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/84235577-6721-49f0-9ee8-91dbd9d7b9a7.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/fabdbf9d-2ab3-4fdd-83ee-97d3ae66d3d6.pdf",
+      "documents": [
+        {
+          "label": "August 13, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9654e9ff-5605-44e3-b15f-de1acd65d178.pdf"
+        },
+        {
+          "label": "August 13, 2024, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/fabdbf9d-2ab3-4fdd-83ee-97d3ae66d3d6.pdf"
+        },
+        {
+          "label": "08-13-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/84235577-6721-49f0-9ee8-91dbd9d7b9a7.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/352/files"
+    },
+    {
+      "eventId": 270,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2024-07-09T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on July 8, 2024 2:07 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/889dc25e-033d-4af5-a06b-9bdce808459f.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "Canceled - July 9, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/889dc25e-033d-4af5-a06b-9bdce808459f.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/270/files"
+    },
+    {
+      "eventId": 269,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-06-11T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on May 30, 2024 9:22 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5e6a424b-db20-411b-b84c-6faea4ef4f59.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a69179f6-b2ba-4705-aa5e-da0d2c86886a.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f19fffc7-c6de-45f3-9262-7945a3237d2c.pdf",
+      "documents": [
+        {
+          "label": "June 11, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5e6a424b-db20-411b-b84c-6faea4ef4f59.pdf"
+        },
+        {
+          "label": "06-11-2024 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f19fffc7-c6de-45f3-9262-7945a3237d2c.pdf"
+        },
+        {
+          "label": "06-11-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a69179f6-b2ba-4705-aa5e-da0d2c86886a.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/269/files"
+    },
+    {
+      "eventId": 268,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-05-14T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on May 9, 2024 3:58 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/23dcab22-7c88-4226-965f-a4218543d6f0.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d1e063e0-42f2-4300-8822-de22640d7e3c.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/8ca1eb19-bff7-41bb-a005-4aa6bb596b4e.pdf",
+      "documents": [
+        {
+          "label": "May 14, 2024, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/23dcab22-7c88-4226-965f-a4218543d6f0.pdf"
+        },
+        {
+          "label": "May 14, 2024, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/8ca1eb19-bff7-41bb-a005-4aa6bb596b4e.pdf"
+        },
+        {
+          "label": "05-14-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d1e063e0-42f2-4300-8822-de22640d7e3c.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/268/files"
+    },
+    {
+      "eventId": 267,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-04-09T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on April 9, 2024 9:07 AM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/50aa325e-e073-423e-afce-f875c4c386d0.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d2fad551-c8b1-4d5f-bbff-b2811780a969.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/02bdf5ea-07fc-407c-8aaf-eca54c2369f8.pdf",
+      "documents": [
+        {
+          "label": "04-09-24 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/50aa325e-e073-423e-afce-f875c4c386d0.pdf"
+        },
+        {
+          "label": "04-09-24 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/02bdf5ea-07fc-407c-8aaf-eca54c2369f8.pdf"
+        },
+        {
+          "label": "04-09-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d2fad551-c8b1-4d5f-bbff-b2811780a969.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/267/files"
+    },
+    {
+      "eventId": 266,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-03-12T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on March 8, 2024 3:55 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bfa5730e-0612-4374-9466-2b406a9990aa.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/6389a39b-9bf9-465a-8001-ff398b0cdcdd.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a6704537-36ef-431c-9443-a76cf1c9a88c.pdf",
+      "documents": [
+        {
+          "label": "March 12, 2024, Planning & Zoning Commission Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bfa5730e-0612-4374-9466-2b406a9990aa.pdf"
+        },
+        {
+          "label": "March 12, 2024, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a6704537-36ef-431c-9443-a76cf1c9a88c.pdf"
+        },
+        {
+          "label": "03-12-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/6389a39b-9bf9-465a-8001-ff398b0cdcdd.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/266/files"
+    },
+    {
+      "eventId": 88,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2024-02-13T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on February 12, 2024 4:18 PM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/291562e0-4e51-43a4-8bbb-09d1db57d295.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e134ec3e-9e30-4cda-ac8c-a753fde69fb4.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9fd5961b-ca0f-4895-8e02-068fa39d1c59.pdf",
+      "documents": [
+        {
+          "label": "02-13-24 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/291562e0-4e51-43a4-8bbb-09d1db57d295.pdf"
+        },
+        {
+          "label": "02-13-24 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9fd5961b-ca0f-4895-8e02-068fa39d1c59.pdf"
+        },
+        {
+          "label": "02-13-24 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e134ec3e-9e30-4cda-ac8c-a753fde69fb4.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/88/files"
+    },
+    {
+      "eventId": 87,
+      "title": "Canceled - Planning & Zoning Commission Meeting",
+      "canceled": true,
+      "date": "2024-01-09T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on January 9, 2024 1:56 PM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e07700db-7b10-49a1-b2db-157c856fda5b.pdf",
+      "minutesUrl": null,
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/c9facfff-89dd-4969-acbf-a9d60fa9074d.pdf",
+      "documents": [
+        {
+          "label": "01-09-24 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e07700db-7b10-49a1-b2db-157c856fda5b.pdf"
+        },
+        {
+          "label": "January 9, 2024, Planning & Zoning Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/c9facfff-89dd-4969-acbf-a9d60fa9074d.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/87/files"
+    },
+    {
+      "eventId": 86,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2023-12-12T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on December 7, 2023 10:47 AM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bbd51a30-0749-45ff-b964-6068e9c03ae0.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/59118e9d-827a-4dc9-839a-21e20d429d2b.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/94601c42-e1c3-48e8-a03d-f582e476194e.pdf",
+      "documents": [
+        {
+          "label": "December 12, 2023, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bbd51a30-0749-45ff-b964-6068e9c03ae0.pdf"
+        },
+        {
+          "label": "December 12, 2023, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/94601c42-e1c3-48e8-a03d-f582e476194e.pdf"
+        },
+        {
+          "label": "12-12-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/59118e9d-827a-4dc9-839a-21e20d429d2b.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/86/files"
+    },
+    {
+      "eventId": 85,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2023-11-14T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on November 9, 2023 2:08 PM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/98cb5689-cda5-4074-9c91-dcea36fcc765.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d21a684b-10a2-497a-8890-c9affebd62d6.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a942a3ea-eec0-46d7-baa9-4f08af8f19d3.pdf",
+      "documents": [
+        {
+          "label": "November 14, 2023, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/98cb5689-cda5-4074-9c91-dcea36fcc765.pdf"
+        },
+        {
+          "label": "November 14, 2023, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a942a3ea-eec0-46d7-baa9-4f08af8f19d3.pdf"
+        },
+        {
+          "label": "11-14-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d21a684b-10a2-497a-8890-c9affebd62d6.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/85/files"
+    },
+    {
+      "eventId": 84,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2023-10-10T17:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on October 6, 2023 2:08 PM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9126c44b-0ee7-4e2e-86c1-3a5a122f1548.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/513df61e-4a1a-4d18-b4d4-599e4d6139dc.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bd2b90de-3016-4745-88d1-f2e0f5dc84ba.pdf",
+      "documents": [
+        {
+          "label": "October 10, 2023, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9126c44b-0ee7-4e2e-86c1-3a5a122f1548.pdf"
+        },
+        {
+          "label": "October 10, 2023, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/bd2b90de-3016-4745-88d1-f2e0f5dc84ba.pdf"
+        },
+        {
+          "label": "10-10-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/513df61e-4a1a-4d18-b4d4-599e4d6139dc.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/84/files"
+    },
+    {
+      "eventId": 83,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2023-09-12T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on September 8, 2023 12:17 PM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/891abd7c-1025-4eba-a404-885594c6108b.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/eb225833-e1fd-4eb7-9382-ccd849f6efe6.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a5540f09-3ea5-4edc-88a9-1768e0788425.pdf",
+      "documents": [
+        {
+          "label": "September 12, 2023, Planning & Zoning Commission Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/891abd7c-1025-4eba-a404-885594c6108b.pdf"
+        },
+        {
+          "label": "September 12, 2023, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/a5540f09-3ea5-4edc-88a9-1768e0788425.pdf"
+        },
+        {
+          "label": "09-12-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/eb225833-e1fd-4eb7-9382-ccd849f6efe6.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/83/files"
+    },
+    {
+      "eventId": 259,
+      "title": "Planning & Zoning Agenda",
+      "canceled": false,
+      "date": "2023-08-08T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on August 3, 2023 2:00 PM",
+      "location": {
+        "address": "1 North Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d1ea7484-dce1-4263-9cdc-3bd94ff94f32.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/7ee79217-b621-471f-b4cf-3c985d574080.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e7f626e8-f6a8-4053-bf04-1b5a4dc7e179.pdf",
+      "documents": [
+        {
+          "label": "August 8, 2023, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/d1ea7484-dce1-4263-9cdc-3bd94ff94f32.pdf"
+        },
+        {
+          "label": "August 8, 2023, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e7f626e8-f6a8-4053-bf04-1b5a4dc7e179.pdf"
+        },
+        {
+          "label": "08-08-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/7ee79217-b621-471f-b4cf-3c985d574080.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/259/files"
+    },
+    {
+      "eventId": 81,
+      "title": "Planning & Zoning Agenda",
+      "canceled": false,
+      "date": "2023-07-11T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on July 6, 2023 5:17 PM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/81a02149-3652-4a9d-b6d7-daf8d2488d1d.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/57e7fcd0-8dcd-4fe5-9b52-91bb607cc0e5.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4055fd93-9e6f-4e03-965f-dd1a21547f46.pdf",
+      "documents": [
+        {
+          "label": "July 11, 2023, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/81a02149-3652-4a9d-b6d7-daf8d2488d1d.pdf"
+        },
+        {
+          "label": "July 11, 2023, Planning & Zoning Commission Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4055fd93-9e6f-4e03-965f-dd1a21547f46.pdf"
+        },
+        {
+          "label": "07-11-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/57e7fcd0-8dcd-4fe5-9b52-91bb607cc0e5.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/81/files"
+    },
+    {
+      "eventId": 235,
+      "title": "Planning and Zoning Commission - Canceled",
+      "canceled": false,
+      "date": "2023-06-26T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on June 13, 2023 5:23 PM",
+      "location": {
+        "address": "1 North Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/32c4f6b4-e025-4bb0-9578-6ad04a3a87d3.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "Canceled - June 26, 2023, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/32c4f6b4-e025-4bb0-9578-6ad04a3a87d3.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/235/files"
+    },
+    {
+      "eventId": 80,
+      "title": "Planning & Zoning Commission Meeting Rescheduled to June 26, 2023",
+      "canceled": false,
+      "date": "2023-06-13T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on June 13, 2023 9:04 AM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4cfcd243-810a-4213-b55c-e7b648d42b3e.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "06-13-2023 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4cfcd243-810a-4213-b55c-e7b648d42b3e.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/80/files"
+    },
+    {
+      "eventId": 82,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2023-05-09T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on May 22, 2023 4:21 PM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f7bde02c-dc1e-4885-8a96-f6cb2ffcf557.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4d05ea90-498f-44ac-ac66-feaa55bd837a.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/2ce157d4-d42b-4d0b-ba52-041ea33b12b0.pdf",
+      "documents": [
+        {
+          "label": "05-16-2023 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/f7bde02c-dc1e-4885-8a96-f6cb2ffcf557.pdf"
+        },
+        {
+          "label": "05-16-2023 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/2ce157d4-d42b-4d0b-ba52-041ea33b12b0.pdf"
+        },
+        {
+          "label": "05-09-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/4d05ea90-498f-44ac-ac66-feaa55bd837a.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/82/files"
+    },
+    {
+      "eventId": 154,
+      "title": "Planning and Zoning Commission",
+      "canceled": false,
+      "date": "2023-04-11T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on April 7, 2023 11:04 AM",
+      "location": {
+        "address": "1 North Bluford Avenue",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e942b29a-c420-4695-bb7c-1a422241537f.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5b535739-7cb0-4b9d-9a22-0eece30f64a3.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e8728a1a-7a07-4a9f-ac80-60a719f895d0.pdf",
+      "documents": [
+        {
+          "label": "April 11, 2023, Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e942b29a-c420-4695-bb7c-1a422241537f.pdf"
+        },
+        {
+          "label": "April 11, 2023, Planning & Zoning Agenda",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/e8728a1a-7a07-4a9f-ac80-60a719f895d0.pdf"
+        },
+        {
+          "label": "04-11-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5b535739-7cb0-4b9d-9a22-0eece30f64a3.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/154/files"
+    },
+    {
+      "eventId": 128,
+      "title": "Canceled - Planning & Zoning Meeting",
+      "canceled": true,
+      "date": "2023-03-14T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on February 21, 2023 9:30 AM",
+      "location": {
+        "address": "1 N. Bluford Ave",
+        "city": "Ocoee",
+        "state": "FL",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5e57821e-8519-46be-84fd-9ef10e59dc4e.pdf",
+      "minutesUrl": null,
+      "packetUrl": null,
+      "documents": [
+        {
+          "label": "03-14-2023 Planning & Zoning Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/5e57821e-8519-46be-84fd-9ef10e59dc4e.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/128/files"
+    },
+    {
+      "eventId": 78,
+      "title": "Planning & Zoning Commission Meeting",
+      "canceled": false,
+      "date": "2023-02-14T18:30:00Z",
+      "status": "Published",
+      "agendaPosted": "Agenda Posted on March 30, 2023 10:41 AM",
+      "location": {
+        "address": "1 N. Bluford Avenue",
+        "city": "Ocoee",
+        "state": "Florida",
+        "zip": "34761"
+      },
+      "hasAgenda": true,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/7a3e96a2-4c86-4794-9f04-5bff257ac9f1.pdf",
+      "minutesUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/cedc6ebc-8a4c-49e6-a6db-389babe7895d.pdf",
+      "packetUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9f4b2757-3348-4334-884e-31b93c7249ec.pdf",
+      "documents": [
+        {
+          "label": "02-14-2023 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/7a3e96a2-4c86-4794-9f04-5bff257ac9f1.pdf"
+        },
+        {
+          "label": "02-14-2023 Agenda Packet",
+          "type": "Agenda Packet",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/9f4b2757-3348-4334-884e-31b93c7249ec.pdf"
+        },
+        {
+          "label": "02-14-2023 Minutes",
+          "type": "Minutes",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/cedc6ebc-8a4c-49e6-a6db-389babe7895d.pdf"
+        }
+      ],
+      "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/78/files"
     }
   ]
 }
