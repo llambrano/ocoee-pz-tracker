@@ -93,19 +93,22 @@
               {m.documents.length > 0 ? (
                 <>
                   {m.agendaUrl && (
-                    <span className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-blue-50 text-blue-700 rounded-full border border-blue-200">
-                      📋 Agenda
-                    </span>
+                    <a href={m.portalUrl} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-blue-50 text-blue-700 rounded-full border border-blue-200 hover:bg-blue-100">
+                      📋 Agenda ↗
+                    </a>
                   )}
                   {m.packetUrl && (
-                    <span className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-purple-50 text-purple-700 rounded-full border border-purple-200">
-                      📦 Packet
-                    </span>
+                    <a href={m.portalUrl} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-purple-50 text-purple-700 rounded-full border border-purple-200 hover:bg-purple-100">
+                      📦 Packet ↗
+                    </a>
                   )}
                   {m.minutesUrl && (
-                    <span className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-green-50 text-green-700 rounded-full border border-green-200">
-                      📝 Minutes
-                    </span>
+                    <a href={m.portalUrl} target="_blank" rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-green-50 text-green-700 rounded-full border border-green-200 hover:bg-green-100">
+                      📝 Minutes ↗
+                    </a>
                   )}
                 </>
               ) : (
