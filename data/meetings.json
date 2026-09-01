@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-08-28T00:10:30.366820+00:00",
+  "scrapedAt": "2026-09-01T13:20:32.022325+00:00",
   "source": "https://ocoeefl.api.civicclerk.com/v1/Events?$filter=eventCategoryId eq 27",
   "count": 49,
   "meetings": [
