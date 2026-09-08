@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-01T13:20:32.022325+00:00",
+  "scrapedAt": "2026-09-08T12:45:44.820056+00:00",
   "source": "https://ocoeefl.api.civicclerk.com/v1/Events?$filter=eventCategoryId eq 27",
   "count": 49,
   "meetings": [
@@ -9,7 +9,7 @@
       "canceled": true,
       "date": "2026-09-08T18:15:00Z",
       "status": "Published",
-      "agendaPosted": "",
+      "agendaPosted": "Agenda Posted on September 4, 2026 3:48 PM",
       "location": {
         "address": "1 N Bluford Avenue",
         "city": "Ocoee",
@@ -17,10 +17,16 @@
         "zip": "34761"
       },
       "hasAgenda": true,
-      "agendaUrl": null,
+      "agendaUrl": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/fc8152d2-4f4c-49aa-a614-6b1a813da2ef.pdf",
       "minutesUrl": null,
       "packetUrl": null,
-      "documents": [],
+      "documents": [
+        {
+          "label": "09-08-2026 Agenda",
+          "type": "Agenda",
+          "url": "https://ocoeefl.api.civicclerk.com/v1/stream/OCOEEFL/fc8152d2-4f4c-49aa-a614-6b1a813da2ef.pdf"
+        }
+      ],
       "portalUrl": "https://ocoeefl.portal.civicclerk.com/event/669/files"
     },
     {
